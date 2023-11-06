@@ -8,7 +8,7 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SinJungho&theme=dark&show_icons=true)
 
 ### 이 수업을 듣게 된 점
-우연히 학교에서 코멘토 부트캠프 참여자 모집을 하기에 내년에 졸업년도인 것과 실제 회사에서는 어떤 방식으로 개발을 하는지가 궁금해 참여하게 되었습니다.
+우연히 학교에서 코멘토 부트캠프 참여자 모집을 하기에 내년에 졸업년도인 것과 실제 회사에서는 어떤 방식으로 개발을 하는지가 궁금해 참여하게 되었습니다. 또한 대학교에서는 단순히 구현에 초점을 두었다면 이 강의에서는 구현 뿐만이 아니라 개발자에게 필요한 여러 능력을 기를 수 있다고 생각이 들어 신청했습니다.
 ### 개발 능력
 
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
