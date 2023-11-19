@@ -1,0 +1,19 @@
+.techStack{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.techStack h4{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.techStack ul{
+  list-style: disc;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.techStack ul li{
+  font-size: 1.4rem;
+}

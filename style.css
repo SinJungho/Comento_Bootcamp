@@ -1,0 +1,12 @@
+@import url(/style/reset.css);
+@import url(/style/header.css);
+@import url(/style/aboutMe.css);
+@import url(/style/techStack.css);
+
+.green{
+  color: green;
+}
+
+body{
+  height: 160vh;
+}
