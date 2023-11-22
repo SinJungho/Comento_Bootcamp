@@ -1,0 +1,57 @@
+.green{
+  color: green;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo a, .header__icon ul a{
+  color: black;
+  text-decoration: none;
+}
+
+.header__icon ul{
+  display: flex;
+  list-style: none;
+}
+
+.header__icon ul a{
+  margin-left: 2rem;
+}
+
+/* *********  about me   ********** */
+.aboutMe__title h4{
+  font-size: 1.5rem;
+}
+
+.aboutMe__title h2{
+  font-size: 3rem;
+}
+
+.aboutMe__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMe__content__img > img{
+  width: 860px;
+  margin-right: 4rem;
+}
+
+.aboutMe__content__txt h4{
+  font-size: 2rem;
+}
+
+.aboutMe__content__txt p{
+  font-size: 1.4rem;
+}
+
+.aboutMe__content__techStack h4{
+  font-size: 2rem;
+}
+
+.aboutMe__content__techStack li{
+  font-size: 1.4rem;
+}
