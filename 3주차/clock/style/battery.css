@@ -1,0 +1,21 @@
+.battery-btn{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 1rem;
+
+}
+
+.battery-btn span{
+  position: absolute;
+  font-weight: 700;
+  padding: 0.9rem;
+}
+
+.battery-btn i{
+  font-size: 3.5rem;
+  /* 추가 기능 1. */
+  /* 배터리 0%에 가까워 질 수록 배경색도 투명 */
+  /* background-color: green; */
+}

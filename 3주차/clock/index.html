@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- battery -->
+      <div class="battery-btn">
+        <span id="battery-text">100%</span>
+        <i class="fa-solid fa-battery-empty"></i>
+      </div>
+      <div class="timer-wrap">
+        <!-- timer -->
+        <div class="timer">
+          <span>2023-12-03</span>
+          <span>15:00:00</span>
+        </div>
+        <!-- timer notice -->
+        <div class="timer-notice"></div>
+        <!-- set alarm -->
+        <div class="set-alarm">
+          <form action="#">
+            <span>알람</span>
+            <button type="button">시</button>
+            <button type="button">분</button>
+            <button type="button">초</button>
+            <button type="button">추가</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/battery.js"></script>
+  </body>
+</html>

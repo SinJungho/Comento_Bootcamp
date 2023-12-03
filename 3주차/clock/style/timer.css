@@ -1,0 +1,5 @@
+.timer:first-child, .timer:last-child{
+  font-size: 4rem;
+  font-weight: 700;
+
+}
