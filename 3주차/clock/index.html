@@ -27,20 +27,25 @@
           <div id="time" class="time"></div>
         </div>
         <!-- timer notice -->
-        <div class="timer-notice"></div>
+        <div class="timer-notice">
+          <ul id="result">
+            
+          </ul>
+        </div>
         <!-- set alarm -->
         <div class="set-alarm">
-          <form action="#">
+          <form id="set-alarm" action="#">
             <span>알람</span>
-            <button type="button">시</button>
-            <button type="button">분</button>
-            <button type="button">초</button>
-            <button type="button">추가</button>
+            <input id="inputHour" type="text" maxlength="2" min="0" max="24" placeholder="시" />
+            <input id="inputMin" type="text" maxlength="2" min="0" max="60" placeholder="분" />
+            <input id="inputSec" type="text" maxlength="2" min="0" max="60" placeholder="초" />
+            <button id="addBtn" onclick="addAlarm()" type="button">추가</button>
           </form>
         </div>
       </div>
     </div>
     <script src="js/battery.js"></script>
     <script src="js/timer.js"></script>
+    <script src="js/set-alarm.js"></script>
   </body>
 </html>
