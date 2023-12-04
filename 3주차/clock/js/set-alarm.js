@@ -24,7 +24,7 @@ function addAlarm() {
     alert("'초'가 올바른 범위가 아닙니다.");
   } 
    else {
-      let time = document.createTextNode(hour + ":" + min + ":" + sec);
+      let time = document.createTextNode(String(hour).padStart(2, "0") + ":" + String(min).padStart(2, "0") + ":" + String(sec).padStart(2,"0"));
       li.appendChild(time);
 
       let delBtn = createDeleteBtn();
