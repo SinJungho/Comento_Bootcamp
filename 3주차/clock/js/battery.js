@@ -12,10 +12,8 @@ function useBattery() {
       // maxBattery = 100;
       timer.style.backgroundColor = "white";
     }
-
     battery.innerText = maxBattery + "%";
-    maxBattery--;
-    
+    maxBattery--;    
   }, 1000);
 }
 

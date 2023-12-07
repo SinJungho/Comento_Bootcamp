@@ -6,7 +6,7 @@ let dateInfo = new Date();
 function getDate() {
   let year = dateInfo.getFullYear();
   let month = dateInfo.getMonth();
-  let date = dateInfo.getDate();
+  let date = String(dateInfo.getDate()).padStart(2,"0");
 
   printDate.innerHTML = `${year} - ${month} - ${date}`;
 }

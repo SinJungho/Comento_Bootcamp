@@ -1,0 +1,45 @@
+
+
+.set-alarm{
+  margin-top: 3rem;
+
+}
+
+.set-alarm form{
+  display: flex;
+  align-items: center;
+}
+
+.set-alarm span{
+  color: #023373;
+  font-size: 2rem;
+    font-weight: 700;
+    margin-right: 4rem;
+}
+
+.set-alarm input {
+  width: 200px;
+  /* height: 150px; */
+  font-size: 2rem;
+  border: none;
+  border-bottom: 2px solid;
+  margin-right: 2rem;
+}
+
+.set-alarm button{
+  color: #023373;
+  background-color: #AED3F2;
+  font-size: 2rem;
+  width: 270px;
+  border-color: transparent;
+  border-radius: 30px;
+  padding: 0.7rem;
+  transition: all 0.5s ease-in;
+}
+
+.set-alarm button:hover{
+  box-shadow: #333 9px 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>계산기</title>
+  </head>
+  <body>
+    <div class="container">
+     <table border="1">
+      <tr>
+        <td id="display" class="input-btn" colspan="4">0</td>
+      </tr>
+      <tr>
+        <td class="menu__btn" onclick="percent()">%</td>
+        <td class="menu__btn" onclick="clearDisplay()">CE</td>
+        <td class="operator__btn result__btn" onclick="calculate()"><i class="fa-solid fa-equals"></i></td>
+        <td class="operator__btn backspace__btn" onclick="backSpace()"><i class="fa-solid fa-arrow-left"></i></td>
+      </tr>
+      <tr>
+        <td class="num__btn" onclick="add(7)">7</td>
+        <td class="num__btn" onclick="add(8)">8</td>
+        <td class="num__btn" onclick="add(9)">9</td>
+        <td class="operator__btn" onclick="add('/')"><i class="fa-solid fa-divide"></i></td>
+      </tr>
+      <tr>
+        <td class="num__btn" onclick="add(4)">4</td>
+        <td class="num__btn" onclick="add(5)">5</td>
+        <td class="num__btn" onclick="add(6)">6</td>
+        <td class="operator__btn" onclick="add('*')"><i class="fa-solid fa-xmark"></i></td>
+      </tr>
+      <tr>
+        <td class="num__btn" onclick="add(1)">1</td>
+        <td class="num__btn" onclick="add(2)">2</td>
+        <td class="num__btn" onclick="add(3)">3</td>
+        <td class="operator__btn" onclick="add('-')"><i class="fa-solid fa-minus"></i></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="big-btn num__btn" onclick="add(0)">0</td>
+        <td class="num__btn" onclick="add('.')"> . </td>
+        <td class="operator__btn" onclick="add('+')"><i class="fa-solid fa-plus"></i></td>
+      </tr>
+      
+     </table>
+    </div>
+    <script src="js/calculate.js"></script>
+  </body>
+</html>
