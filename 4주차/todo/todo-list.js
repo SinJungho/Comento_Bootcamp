@@ -10,7 +10,6 @@ document.getElementById("addTodoBtn").addEventListener("click", function () {
 
 function addItem(text) {
   const list = document.getElementById("todo__menu");
-
   const item = document.createElement("li");
   item.innerText = text;
 
