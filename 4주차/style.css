@@ -1,0 +1,20 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.id-input{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.id-input input{
+  width: 70%;
+}
+
+.id-input button{
+  width: 20%;
+}
