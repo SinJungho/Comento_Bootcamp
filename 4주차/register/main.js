@@ -1,7 +1,7 @@
 let inputId = document.querySelector("#floatingInput");
 let inputPw = document.querySelector("#floatingPassword");
 
-let users = ["user1", "user2", "user3"];
+let users = ["admin", "jungho", "java"];
 
 function idRule(value) {
   return inputId.value.length >= 4 && inputId.value.length <= 12;

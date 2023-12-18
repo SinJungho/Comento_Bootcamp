@@ -15,6 +15,7 @@ function addItem(text) {
 
   const deleteButton = document.createElement("button");
 
+  // 삭제 버튼 style 설정
   deleteButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
   deleteButton.style.fontSize = "1.3rem";
   deleteButton.style.color = "red";
@@ -26,7 +27,8 @@ function addItem(text) {
   deleteButton.style.marginBottom = "1.5rem";
   deleteButton.style.marginLeft = "3rem";
   deleteButton.style.fontFamily = "'Noto Sans KR', 'Noto Sans', sans-serif";
-
+  
+  // 삭제 event
   deleteButton.addEventListener("click", function () {
     deleteItem(item);
   });
@@ -34,6 +36,7 @@ function addItem(text) {
   item.style.fontSize = "1.3rem";
   item.style.fontFamily = "'Noto Sans KR', 'Noto Sans', sans-serif";
   // item.style.marginRight = "2.4rem";
+
   item.appendChild(deleteButton);
 
   list.appendChild(item);
